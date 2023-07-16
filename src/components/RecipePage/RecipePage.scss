@@ -1,0 +1,36 @@
+.beer {
+  position: relative;
+  display: flex;
+  margin: auto;
+  padding: 12px;
+  width: 800px;
+
+  border: 1px solid black;
+  border-radius: 10px;
+  
+  gap: 20px;
+
+  &__image {
+    display: flex;
+    align-items: center;
+    
+    &--img {
+      width: 200px;
+      height:inherit;
+      object-fit: contain;
+    }
+  }
+
+  &__info {
+    font-size: 18px;
+
+    &--title {
+      font-weight: bold;
+      padding-right: 5px;
+    }
+
+    &--list {
+      list-style: none;
+    }
+  }
+}

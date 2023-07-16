@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #351c75;
+}
+
+p {
+  margin: 0;
+  gap: 5px
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 18px;
+}

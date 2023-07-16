@@ -1,0 +1,46 @@
+.content {
+  text-align: center;
+  padding: 10px;
+}
+
+.content__name {
+  margin: 20px;
+  font-weight: bold;
+}
+
+.recipe-card {
+  display: flex;
+  justify-content: center;
+
+  margin: auto;
+  margin-bottom: 10px;
+  
+  width: 80%;
+  
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &.selected {
+    background-color: rgb(121, 149, 159);
+  }
+
+  &:hover:not(.selected) {
+    opacity: 0.6;
+  }
+}
+
+.delete-button {
+  position: sticky;
+
+  display: flex;
+
+  margin: auto;
+  bottom: 20px;
+  padding: 5px 10px;
+
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
