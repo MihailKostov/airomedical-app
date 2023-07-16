@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/airomedical-app/static/css/main.e9471f69.css",
-    "main.js": "/airomedical-app/static/js/main.3224e5b9.js",
+    "main.js": "/airomedical-app/static/js/main.b70eda92.js",
     "index.html": "/airomedical-app/index.html",
     "main.e9471f69.css.map": "/airomedical-app/static/css/main.e9471f69.css.map",
-    "main.3224e5b9.js.map": "/airomedical-app/static/js/main.3224e5b9.js.map"
+    "main.b70eda92.js.map": "/airomedical-app/static/js/main.b70eda92.js.map"
   },
   "entrypoints": [
     "static/css/main.e9471f69.css",
-    "static/js/main.3224e5b9.js"
+    "static/js/main.b70eda92.js"
   ]
 }
